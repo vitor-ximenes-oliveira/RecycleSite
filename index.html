@@ -4,29 +4,89 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
     <link href="style.css" rel="stylesheet" type="text/css">
     <title>Document</title>
 </head>
 <body>
+
     <div class="header">
         <!---img class="backgroundImg"src="image/metal.jpg" alt="scrap"--->
         <nav>
-            <img src="" class="logo">
+            <h1>Reclica-me Unip</h1>
             <ul class="nav-links">
-            <li><a href="">Home</a></li>
-            <li><a href="">O que é?</a></li>
-            <li><a href="">Como Reciclar</a></li>
-            <li><a href="">Cores de Coleta</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="#recycleDesc">O que é?</a></li>
+                <li><a href="#howToRecycle">Como Reciclar</a></li>
+                <li><a href="#cores">Cores de Coleta</a></li>
             </ul>
         </nav>
+
+        <header class="header-content">
+            <h1>RECICLAGEM: TUDO QUE VOCE PRECISA SABER</h1>
+
+            <ul class="header-link">
+                <li><a href="https://api.whatsapp.com/send?1=pt_BR&phone=5511943035000"><img src="image/whatsapp.png"></a></li>
+                <li><a href="https://login.microsoftonline.com/common/oauth2/authorize?client_id=00000002-0000-0ff1-ce00-000000000000&redirect_uri=https%3a%2f%2foutlook.office365.com%2fowa%2f&resource=00000002-0000-0ff1-ce00-000000000000&response_mode=form_post&response_type=code+id_token&scope=openid&msafed=1&msaredir=1&client-request-id=f7ff5abd-2e50-3239-2f97-46b00cf48c61&protectedtoken=true&claims=%7b%22id_token%22%3a%7b%22xms_cc%22%3a%7b%22values%22%3a%5b%22CP1%22%5d%7d%7d%7d&domain_hint=docente.unip.br&nonce=638192780091409941.fd74d766-668b-47e5-989a-376d9d9dd548&state=DYtbDkAwEABbruAarVbXPo6DrcRPiRDXt5nM_I13zvVmZ_pkcYSFs0zEKUmGJAI57kqghBgQeQ1AdQ7CsoRCqGLoDOztHcbzW0Y9t9qeGt92XHG9fw&sso_reload=true"><img src="image/gmail-logo.png"></a></li>
+                <li><a href="https://www.facebook.com/UNIPoficial/?locale=pt_BR"><img src="image/facebook.png"></a></li>
+            </ul>
+        </header>
+
     </div>
     <div class="content">
-        <h1>RECICLAGEM</h1>
+        <div class="sec-text" id="recycleDesc">
+            <h2>O que é Reciclagem?</h2>
+            <p>
+                A reciclagem é um processo de transformação de materiais descartáveis em novos insumos e produtos. Apesar de ser uma prática antiga, atualmente as políticas de reciclagem são fundamentais para a preservação ambiental, assim como para o desenvolvimento econômico. Ela geralmente é realizada por meio da coleta seletiva, que envolve a separação adequada do lixo e possui cores que possibilitam a distribuição correta dos materiais recicláveis conforme a sua origem.
+            </p>
+        </div>
+        <div class="sec-text2" id="howToRecycle">
+            <h2>Como Reciclar?</h2>
+            <p>
+                Existem três tipos de reciclagem, que geram diferentes tipos de produtos e benefícios:
+            </p>
+            <h3>1° Passo</h3>
+            <p>
+                É o método mais comum. Ele consiste em transformar os plásticos (tanto os oriundos de sobra industrial - sobras virgens do processo produtivo - quanto os descartados pós-consumo - materiais recuperados no lixo por meio da coleta seletiva) em pequenos grânulos, que podem ser utilizados na produção de novos materiais, como sacos de lixo, pisos, mangueiras, embalagens não-alimentícias, peças de automóveis, entre outros.
+            </p>
+            <h3>2° Passo</h3>
+            <p>
+                Trata-se do modelo mais elaborado, que reprocessa os plásticos para transformá-los em materiais petroquímicos básicos, que servem de matéria-prima para a criação de produtos de elevada qualidade.
+            </p>
+            <h3>3° Passo</h3>
+            <p>
+                Consiste na tecnologia que faz a reciclagem de plásticos por meio de sua transformação em energia térmica e elétrica, através da incineração, permitindo o aproveitamento do poder calorífico armazenado nos plásticos. Além disso, esse tipo de reciclagempermite também que os plásticos sejam aproveitados como combustível.
+            </p>
+        </div>
+        <h2 id="cores">Cores da Coleta</h2>
         <div class="category-list">
-            <div class="metal"></div>
-            <div class="plastic"></div>
-            <div class="organic"></div>
-            <div class="paper"></div>
+        
+            <div class="metal">
+                <a href="https://www.unip.br/" class="trashImage">
+                    <img class="recyclingSymbol" src="image/lixeira-de-reciclagem.png">
+                    <h3 id="colorsTitles">Metal</h3>
+                </a>
+                
+            </div>
+            <div class="plastic">
+                <a href="https://www.unip.br/" class="trashImage">
+                    <img class="recyclingSymbol" src="image/lixeira-de-reciclagem.png">
+                    <h3 id="colorsTitles">Plástico</h3>
+                </a>
+            </div>
+            <div class="organic">
+                <a href="https://www.unip.br/" class="trashImage">
+                    <img class="recyclingSymbol" src="image/lixeira-de-reciclagem.png">
+                    <h3 id="colorsTitles">Orgânico</h3>
+                </a>
+                
+            </div>
+            <div class="paper">
+                <a href="https://www.unip.br/" class="trashImage">
+                    <img class="recyclingSymbol" src="image/lixeira-de-reciclagem.png">
+                    <h3 id="colorsTitles">Papel</h3>
+                </a>
+            </div>
         </div>
     </div>
 </body>
