@@ -62,7 +62,7 @@ nav{
 }
 
 #homeHeader{
-    height: 600px;
+    height: 1150px;
     background-image: url(image/HomeBG.png);
     background-size: cover;
     position: relative;
@@ -70,7 +70,7 @@ nav{
 }
 
 #metalHeader{
-    height: 600px;
+    height: 1400px;
     background-image: url(image/MetalBG.png);
     background-size: cover;
     position: relative;
@@ -78,7 +78,7 @@ nav{
 }
 
 #paperHeader{
-    height: 800px;
+    height: 1400px;
     background-image: url(image/PaperBG.png);
     background-size: cover;
     position: relative;
@@ -87,7 +87,7 @@ nav{
 }
 
 #glassHeader{
-    height: 600px;
+    height: 1300px;
     background-image: url(image/VidroBG.png);
     background-size: cover;
     position: relative;
@@ -95,7 +95,7 @@ nav{
 }
 
 #organicHeader{
-    height: 600px;
+    height: 1400px;
     background-image: url(image/OrganicBG.png);
     background-size: cover;
     position: relative;
@@ -103,7 +103,7 @@ nav{
 }
 
 #plasticHeader{
-    height: 700px;
+    height: 1150px;
     background-image: url(image/PlasticBG.png);
     background-size: cover;
     position: relative;
@@ -111,7 +111,7 @@ nav{
 }
 
 #eTrashHeader{
-    height: 600px;
+    height: 1150px;
     background-image: url(image/EletronicBG.png);
     background-size: cover;
     position: relative;
